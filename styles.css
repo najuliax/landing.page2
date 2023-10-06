@@ -26,6 +26,12 @@ body {
 .fundo {
 
  background-color: #ffffff33;
+ background-image: url("https://queportatilcomprar.net/wp-content/uploads/2021/09/mejores-portatiles-para-desarrolladores.jpg");
+ height: 440px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
 }
 
 .header .container {
@@ -41,7 +47,7 @@ body {
 
 .menu ul {
     list-style-type: none;
-    padding-left: 50px;
+    padding-left: 0px;
     display: flex;
 }
 
@@ -61,7 +67,7 @@ body {
 }
 
 .footer {
-    position: fixed;
+    position: fixed absolute;
     bottom: 0;
     left: 0;
     width: 100%;
@@ -82,4 +88,40 @@ height: 30px;
   
 }
 
+.frase-1{
+  color: #fff;
+  font-size: 35px;
+  text-align: center;
+  
+}
 
+.frase-2{
+  color: #fff;
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+.frase-3{
+  color: #fff;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.meuBotao{
+  margin-top: 20px;
+  width: 190px;
+  height: 65px;
+  border-radius: 20px;
+  font-size: 20px;
+   background-color:  #7c21c7;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.5s;
+ 
+}
+.meuBotao:hover {
+    background-color: rgb(45, 3, 58);
+}
+}
