@@ -1,14 +1,13 @@
-body {
-    margin: 10;
-    padding: 10;
+
+  body {
+    
     font-family: Arial, sans-serif;
   
 }
 
 .container {
-    width: 80%;
-    max-width: 1200px;
-    margin: 0 auto;
+   
+  
     padding: 20px;
 }
 
@@ -124,4 +123,27 @@ height: 30px;
 .meuBotao:hover {
     background-color: rgb(45, 3, 58);
 }
+.card { 
+  
+background-color: rgb(255, 255, 255);
+padding: 120px;
+
+}
+
+.card-text{ 
+  background-color: #8839c9b2;
+  padding: 10px;
+  height: 100px;
+  width: 450px;
+  margin: center;
+
+  border-radius: 10px;
+  border:solid 2px;
+  border-color: rgb(152, 18, 179);
+  color: #fff; 
+  
+}
+
+.oii{
+  background-color: aqua;
 }
